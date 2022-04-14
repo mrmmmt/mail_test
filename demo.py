@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 
-def send_mail(mail_subject, mail_content, to_add='mmmt123321@126.com', from_name='telankesi_', from_add='mmmt123321@126.com', from_pwd='mt61519ZZmail'):
+def send_mail(mail_subject, mail_content, to_add='mmmt123321@126.com', from_name='telankesi_', from_add='mmmt123321@126.com', from_pwd='*****'):
     # 连接邮箱服务器
     con = smtplib.SMTP_SSL('smtp.126.com', 465)
     # 登录邮箱
